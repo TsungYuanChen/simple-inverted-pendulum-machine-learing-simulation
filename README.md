@@ -1,14 +1,18 @@
-# Simple-Inverted-Pendulum-Machine-Learing-Simulation
+# Machine Learning Practice Repository
 
-This repository is build for learing machine learing.
-It has three codes, no agent, learning, and load the pocily
+This repository is built for learning machine learning. It contains three scripts:
 
-The simulation envriment is gymnasium.
-The ML libaray is using StableBaseline3
+1. `no_agent` – runs the simulation without any learning agent.  
+2. `learning` – trains a new policy using reinforcement learning.  
+3. `load_policy` – loads and runs a pre-trained policy.
 
-Here has trained policy: ppo_cartpole_model.zip
-You can utilize the load code to test the traned policy 
+The simulation environment used is **Gymnasium**, and the machine learning library is **Stable-Baselines3**.
 
-Before you using these code please install the requremed package by using pip.
+A trained policy is included in the file `ppo_cartpole_model.zip`. You can use the `load_policy` script to test this pre-trained model.
 
+## Installation
+
+Before running any code, please install the required packages using the following command:
+
+```bash
 pip install numpy==1.26 scipy pandas mujoco gymnasium[classic-control] tensorflow stable-baselines3
