@@ -2,9 +2,9 @@
 
 This repository is built for learning machine learning. It contains three scripts:
 
-1. `no_agent` – runs the simulation without any learning agent.  
-2. `learning` – trains a new policy using reinforcement learning.  
-3. `load_policy` – loads and runs a pre-trained policy.
+1. `no_agent` – runs the simulation without any learning agent.    (cartpole-no-agent1.py)
+2. `learning` – trains a new policy using reinforcement learning.  (cartpole-learn-agent1.py)
+3. `load_policy` – loads and runs a pre-trained policy.            (cartpole-load-agent1.py)
 
 The simulation environment used is **Gymnasium**, and the machine learning library is **Stable-Baselines3**.
 
